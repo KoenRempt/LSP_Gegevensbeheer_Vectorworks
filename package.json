@@ -1,0 +1,46 @@
+{
+  "name": "gegevensbeheer-language-support",
+  "displayName": "Gegevensbeheer Language Support",
+  "version": "0.0.1",
+  "publisher": "koen",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vscode": "^1.1.37",
+    "@types/node": "^24.10.0",
+    "@types/vscode": "^1.105.0"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^9.0.1"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "gegevensbeheer",
+        "aliases": [
+          "Gegevensbeheer",
+          "gegevensbeheer"
+        ],
+        "extensions": [
+          ".ggbh"
+        ],
+        "configuration": "./syntaxes/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gegevensbeheer",
+        "scopeName": "source.gegevensbeheer",
+        "path": "./syntaxes/gegevensbeheer.tmLanguage.json"
+      }
+    ]
+  }
+}
