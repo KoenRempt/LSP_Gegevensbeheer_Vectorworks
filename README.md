@@ -1,6 +1,6 @@
 # install python dependencies
 ```
-pip install requirments.txt
+pip install requirements.txt
 ```
 
 # install node dependencies
