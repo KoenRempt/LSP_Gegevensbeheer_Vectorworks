@@ -1,18 +1,4 @@
-# install python dependencies
+# install dependencies
 ```
-cd .\server\
-```
-```
-py -m venv .venv
-```
-```
-.\.venv\Scripts\activate
-```
-```
-pip install requirements.txt
-```
-
-# install node dependencies
-```
-npm install
+npm run install-all
 ```
