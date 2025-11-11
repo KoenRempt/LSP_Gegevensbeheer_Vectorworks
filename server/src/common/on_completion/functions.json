@@ -1,0 +1,28 @@
+{
+  "functions": [
+    {
+      "label": "Sum",
+      "detail": "Function Sum(a, b)",
+      "documentation": "Returns the sum of two numbers a and b.",
+      "insert_text": "Sum(${1:a}, ${2:b})"
+    },
+    {
+      "label": "Average",
+      "detail": "Function Average(numbers)",
+      "documentation": "Calculates the average of a list of numbers.",
+      "insert_text": "Average(${1:numbers})"
+    },
+    {
+      "label": "Max",
+      "detail": "Function Max(numbers)",
+      "documentation": "Returns the maximum value from a list of numbers.",
+      "insert_text": "Max(${1:numbers})"
+    },
+    {
+      "label": "Min",
+      "detail": "Function Min(numbers)",
+      "documentation": "Returns the minimum value from a list of numbers.",
+      "insert_text": "Min(${1:numbers})"
+    }
+  ]
+}
