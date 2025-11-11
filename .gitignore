@@ -1,9 +1,6 @@
 # .venv
 server/.venv/
 
-# .vscode
-.vscode/
-
 # Logs
 logs
 *.log
